@@ -4,12 +4,8 @@ import com.example.xyproject.dao.UserDao;
 import com.example.xyproject.pojo.User;
 import com.example.xyproject.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Map;
 import java.util.List;
 
 @RestController
