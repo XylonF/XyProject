@@ -6,4 +6,8 @@
     <select id="getUserList" resultType="com.example.xyproject.pojo.User">
         select * from user
     </select>
+
+    <select id="getUserById" resultType="com.example.xyproject.pojo.User">
+        select * from user where id = #{id}
+    </select>
 </mapper>
