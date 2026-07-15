@@ -27,7 +27,7 @@ public class SqlController {
         UserDao mapper = sqlSession.getMapper(UserDao.class);
         List<User> userList = mapper.getUserList();
 
-
+        sqlSession.close();
         return userList;
 
     }
