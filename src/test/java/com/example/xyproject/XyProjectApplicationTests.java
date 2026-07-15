@@ -8,6 +8,9 @@ class XyProjectApplicationTests {
 
     @Test
     void contextLoads() {
+        UserDaoTest test = new UserDaoTest();
+        System.out.println("test");
+        test.test();
     }
 
 }
